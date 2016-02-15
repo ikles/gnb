@@ -21,4 +21,17 @@
 		<filename>template_preview.png</filename>
 		<filename>template_thumbnail.png</filename>
 	</files>
+	<positions>
+	<position>tel_top</position>
+	<position>form_top</position>
+	<position>search</position>
+	<position>top_menu</position>
+	<position>left_menu</position>
+	<position>left_contacts</position>
+	<position>knop</position>
+	<position>bread</position>
+	<position>phone_mail_price</position>
+	<position>form_static</position>
+	<position>form_dinamic</position>
+	</positions>
 </extension>

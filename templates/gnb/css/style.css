@@ -33,7 +33,7 @@ td.search {padding: 0 0 0 20px}
 
 .body2 {font-family: Tahoma; font-size: 11px; color: #545454; padding: 10px 12px 40px 34px}
 
-h1.tema {color: #F00000; font-family: Franklin Gothic Medium; font-size: 18px; text-transform: uppercase; font-weight: normal; margin: 0px; padding: 0px 10px 0px 27px}
+.page-header h1 {color: #F00000; font-family: Franklin Gothic Medium; font-size: 18px; text-transform: uppercase; font-weight: normal; margin: 0px; padding: 0px 10px 0px 0}
 
 .name {color: #474747; font: 11px bold Tahoma; margin: 0px; padding: 0px 10px 0px 34px; text-align: center; text-transform: uppercase; }
 
@@ -187,7 +187,7 @@ a.novaja {
 	color: #000; 
 }
 
-.knop {
+.moduletable_knop {
 	position: absolute; 
 	top: 50%; 
 	right: 0; 
@@ -294,14 +294,14 @@ a.novajatext {
 	font-weight: bold; 
 }
 
-.tel_top { position:absolute; top:15px; right:30px; color:#000; width: 462px; text-align: right;}
-.tel_top p { margin:0;}
-.tel_top a { color:#000; text-decoration: none;}
-.tel_top a:hover { color:#000; text-decoration: none;}
+.moduletable_tel_top { position:absolute; top:15px; right:30px; color:#000; width: 462px; text-align: right;}
+.moduletable_tel_top p { margin:0;}
+.moduletable_tel_top a { color:#000; text-decoration: none;}
+.moduletable_tel_top a:hover { color:#000; text-decoration: none;}
 
-.form_top { position: absolute; top:30px; right:30px; margin:5px 200px 0 0; font-weight:bold;}
-.form_top a {text-decoration: none;}
-.form_top a:hover{ text-decoration: underline;}
+.moduletable_form_top { position: absolute; top:30px; right:30px; margin:5px 200px 0 0; font-weight:bold;}
+.moduletable_form_top a {text-decoration: none;}
+.moduletable_form_top a:hover{ text-decoration: underline;}
 
 .stil2 {box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
 	padding: 5px; 
@@ -315,3 +315,209 @@ a.novajatext {
 .header_tb td {
     font-size: 0;
 }
+
+.moduletable_search label {
+	display: none;
+}
+
+.moduletable_search button {
+background-color: #f00000;
+    border: 1px solid #f00000;
+    color: #ffffff;
+    cursor: pointer;
+    font-size: 10px;
+    height: 18px;
+    }
+
+.moduletable_search input {
+    border: 1px solid #717171;
+    font-size: 10px;
+    height: 18px;
+    width: 120px;
+    margin-right: 4px;
+    }
+
+
+
+    .moduletable_top_menu li {
+    	float: right;
+    	list-style: none;
+    }
+
+    .moduletable_top_menu a {font-family: Franklin Gothic Medium;
+    	font-size: 12px;
+    	text-transform: uppercase;
+    	font-weight: normal;
+		color: #393A3A;
+    	padding: 0px 15px 0px 15px}
+    .moduletable_top_menu .menu {
+    	padding: 0;
+    	border: none;
+    	margin: 0;
+    }
+
+    .moduletable_left_menu a {
+    	color: #393A3A;
+    }
+
+.moduletable_left_menu li {
+    list-style: none;
+    border-bottom: 1px dotted #a7aeaa;
+    padding: 5px 0 5px 6px;
+    }
+
+.moduletable_left_menu .menu {
+	border: none;
+	margin: 0;
+	padding: 0;
+}
+
+.moduletable_left_contacts h3 {
+color: #474747;
+    font: 11px bold Tahoma;
+    margin: 0;
+    padding: 0 0 10px 0;
+    text-align: center;
+    text-transform: uppercase;
+}
+    
+    .custom_left_contacts {
+    color: #545454;
+    font-family: Tahoma;
+    font-size: 11px;
+    text-align: center;
+    }
+
+.breadcrumb_bread {
+	margin: 0;
+	margin-left: -13px;
+}
+
+    .moduletable_bread li {
+    	float: left;
+    	list-style: none;
+    	font-size: 11px;
+    	color: #434343;
+    text-decoration: none;
+    }
+
+       .moduletable_bread  a {
+       	font-size: 11px;
+       	color: #434343;
+    text-decoration: none;
+       }
+
+       .divider {
+    margin-right: 5px;
+}
+
+.divider.icon-location {
+	display: none;
+}
+
+.custom_phone_mail_price {
+	margin-top: 30px;
+}
+
+.custom_phone_mail_price > p {
+    margin-top: 30px;
+}
+
+.moduletable_form_static input.inputtext, .popup input.inputtext{
+	width: 205px;
+}
+
+.moduletable_form_static h3 {
+	font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+    font-family: Verdana;
+}
+
+.moduletable_form_static input[type="submit"], .popup input[type="submit"]{
+	margin-top: 30px;
+	cursor: pointer;
+}
+
+.moduletable_form_static textarea {
+width: 420px;
+height: 125px;
+}
+
+/*---------------Форма обратной связи всплывающая---------------------*/
+
+.overlay {
+ background-color: rgba(0, 0, 0, 0.7);
+ bottom: 0;
+ cursor: default;
+ left: 0;
+ opacity: 0;
+ position: fixed;
+ right: 0;
+ top: 0;
+ visibility: hidden;
+ z-index: 99999;
+		-webkit-transition: opacity .5s;
+		-moz-transition: opacity .5s;
+		-ms-transition: opacity .5s;
+		-o-transition: opacity .5s;
+		transition: opacity .5s;
+}
+.popup {
+	background-color: #fff;
+	display: inline-block;
+	left: 50%;
+	opacity: 0;
+	position: fixed;
+	text-align: left;
+	top: 40%;
+	visibility: hidden;
+	z-index: 999999;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	-ms-transform: translate(-50%, -50%);
+	-o-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: opacity .5s, top .5s;
+	-moz-transition: opacity .5s, top .5s;
+	-ms-transition: opacity .5s, top .5s;
+	-o-transition: opacity .5s, top .5s;
+	transition: opacity .5s, top .5s;
+}
+.popup .close_order {
+	font-size: 20px;
+	display: block;
+	width: 6px;
+	height: 17px;
+	position: absolute;
+	padding: 1px 9px 4px 9px;
+	top: 9px;
+	right: 9px;
+	cursor: pointer;
+	color: #000;
+	font-family: Raleway;
+	text-align: center;
+}
+.popup .close_order:hover {
+	
+}
+
+form .header {
+	text-align: center;
+	text-transform: uppercase;
+
+color: #202a38;
+font-family: RalewayB;
+font-size: 18px;
+text-transform: uppercase;
+}
+
+.overlay:target + .popup {
+    opacity: 1;
+    top: 20%;
+    visibility: visible;
+}
+
+#wrapper {
+	min-height: 700px;
+}	
