@@ -1,0 +1,317 @@
+a, 
+ul a, 
+ol a { 
+	color: #E30000; 
+	text-decoration: none;
+}
+
+a: hover,
+ul a: hover,
+ol a: hover { 
+	color: #c00; 
+	text-decoration: none; 
+}
+.b { color: #434343; text-decoration: none; }
+.b: hover { color: #434343; text-decoration: underline; }
+
+.d { color: #434343; text-decoration: none; }
+.d: hover { color: #434343; text-decoration: underline; }
+
+h1, h2, h3, h4, h5 {font-family: Franklin Gothic Medium;}
+h1 { font-size: 20px; }
+h2 { font-size: 18px; }
+h3 { font-size: 17px; }
+h4 { font-size: 14px; }
+h5 { font-size: 12px; }
+
+body, td, p { font-family: Verdana; font-size: 12px; }
+ 
+form {margin: 0px}
+td.search {padding: 0 0 0 20px}
+
+.body {font-family: Tahoma; font-size: 12px; text-align: justify; color: #333333; padding: 10px 60px 40px 27px}
+
+.body2 {font-family: Tahoma; font-size: 11px; color: #545454; padding: 10px 12px 40px 34px}
+
+h1.tema {color: #F00000; font-family: Franklin Gothic Medium; font-size: 18px; text-transform: uppercase; font-weight: normal; margin: 0px; padding: 0px 10px 0px 27px}
+
+.name {color: #474747; font: 11px bold Tahoma; margin: 0px; padding: 0px 10px 0px 34px; text-align: center; text-transform: uppercase; }
+
+.menuNormal {background-color: transparent; font-family: Arial; font-size: 12px; text-transform: uppercase; font-weight: bold; text-decoration: none; 
+			 padding: 9px 0px 12px 0px; 	background-image: url(left_sp.jpg); background-repeat: no-repeat; background-position: right; background-color: #CE181E; 
+			 border-bottom: 1px solid #ffffff; cursor: pointer}
+			
+.menuOver  {background-color: transparent; font-family: Arial; font-size: 12px; text-transform: uppercase; font-weight: bold; text-decoration: none; 
+		  padding: 9px 0px 12px 0px; background-image: url(left_sp2.gif); background-repeat: no-repeat; background-position: right; background-color: #A1A1A1; 			    border-bottom: 1px solid #ffffff; cursor: pointer}
+		 
+		 
+TD.menuNormal A.c {color: #ffffff; text-decoration: none; }
+TD.menuOver A.c {color: #ffffff; text-decoration: none; }
+
+.menu {font-family: Tahoma; font-size: 11px; text-transform: uppercase; font-weight: normal; color: #393A3A; padding: 5px 0px 5px 6px; border-bottom: 1px dotted #A7AEAA}
+.menu22 {font-family: Tahoma; font-size: 11px; font-weight: normal; color: #393A3A; padding: 5px 0px 5px 6px; border-bottom: 1px dotted #A7AEAA}
+
+.mnu {color: #393A3A; text-decoration: none}
+.mnu: hover {color: #F00000; text-decoration: underline}
+
+.menu2 {font-family: Franklin Gothic Medium; font-size: 12px; text-transform: uppercase; font-weight: normal; color: #000000; padding: 0px 15px 0px 15px}
+
+.mnu2 {color: #000000; text-decoration: none}
+.mnu2: hover {color: #000000; text-decoration: underline}
+
+.tit {font-family: Verdana; font-size: 9px; font-weight: bold; color: #dcdbdb}
+
+.tit {color: #dcdbdb; text-decoration: none}
+.tit: hover {color: #dcdbdb; text-decoration: none}
+
+span.copyright {font-family: Tahoma; font-size: 11px; color: #545454}
+span.copyright a  {color: #545454; }
+
+.ban { font-family: Tahoma; font-size: 11px; color: #434343; }
+
+.small { font-family: Verdana; font-size: 7pt; color: #808080; }
+
+.tel {font-family: Tahoma; font-size: 11px; color: #545454}
+span.tel { text-transform: uppercase; font-weight: bold}
+
+table.table1  { font-size: 11px; border-collapse: collapse; font-family: Tahoma; color: #757575 }
+table.table1 td { padding: 4px; border: 1px solid #000000}
+table.table0 { font-size: 11px; border-collapse: collapse; font-family: Tahoma; color: #757575}
+table.table0 td { padding: 4px; border-width: 0px; solid #000000 }
+
+
+/* */
+
+td.shop-column1 { width: 70%; padding-right: 10px; }
+td.shop-column2 { width: 30%; }
+
+h2.shop-product-title { font-size: 18px; font-weight: bold; }
+
+/* SHOP CART */
+
+div.shop-cart { text-align: right; font-size: 10px; text-transform: uppercase; margin-bottom: 20px; }
+a.shop-cart { font-size: 10px; font-family: tahoma; font-weight: bold; text-decoration: none; text-transform: uppercase; }
+a.shop-cart: hover { font-size: 10px; font-family: tahoma; font-weight: bold; text-decoration: underline; text-transform: uppercase; }
+
+/* SHOP PATH */
+
+div.shop-path { text-align: left; font-size: 10px; text-transform: uppercase; margin-bottom: 10px; }
+a.shop-path { font-size: 10px; font-family: tahoma; font-weight: bold; text-decoration: none; text-transform: uppercase; }
+a.shop-path: hover { font-size: 10px; font-family: tahoma; font-weight: bold; text-decoration: underline; text-transform: uppercase; }
+
+/* SHOP FOLDERS */
+
+div.shop-folders { }
+div.shop-folders-title { color: #000000; font-weight: bold; padding: 5px; background-color: #e0e0e0; }
+div.shop-folders-body { padding: 15px; font-size: 11px; }
+a.shop-folder { font-size: 10px; font-family: tahoma; font-weight: bold; text-decoration: none; text-transform: uppercase; }
+a.shop-folder: hover { font-size: 10px; font-family: tahoma; font-weight: bold; text-decoration: underline; text-transform: uppercase; }
+
+/* SHOP PRODUCT LIST */
+
+table.shop-products { font-size: 11px; border-collapse: collapse; border-bottom: 1px solid #cccccc; }
+table.shop-products td { padding: 5px; border-right: 1px solid #cccccc; border-left: 1px solid #cccccc; }
+td.product-th { padding: 5px; background-color: #cccccc; font-weight: bold; color: #000000; text-align: center; }
+td.product-tb { padding: 5px; border-top: 1px solid #cccccc; text-align: right; }
+
+div.shop-add-to-cart { padding: 5px; }
+span.shop-remove-from-cart { cursor: pointer; color: #cc0000; text-decoration: underline; }
+span.shop-remove-from-cart: hover { cursor: pointer; color: #000000; text-decoration: underline; }
+
+/* SHOP PRODUCT LIST STAGE */
+
+table.stage { font-size: 11px; }
+td.stage-title { text-transform: uppercase; background-color: #cccccc; padding: 7px; }
+td.stage-image { padding: 5px; text-align: center; }
+td.stage-body { padding: 10px; }
+
+
+/* SHOP PRODUCT FORMS */
+
+input.number { border: 1px solid #cccccc; }
+input.shop-add-to-cart { }
+form.nomargin { margin: 0px; }
+
+/* SHOP PRODUCT MISC */
+
+#shop-added { 
+	display: none; 
+	z-index: 10000; 
+	padding: 5px; border: 1px solid gray; 
+	position: absolute; left: 0px; top: -20px; 
+	background-color: #FFFFCC; 
+	font-size: 11px; 
+	font-family: verdana;
+}
+ 
+
+form.hidden { margin: 0px; }
+ 
+ul.boxes {
+	color: #cccccc; 
+	margin: 0px 0px 0px 5px; 
+	padding: 0px 0px 0px 10px; 
+}
+
+ul.boxes li { margin-bottom: 5px; }
+ul.boxes li: hover { margin-bottom: 5px; }
+
+.round-shape {
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+}
+
+div.a_button {
+	background: #ededef; 
+	clear: both; 
+	color: #666; 
+	cursor: pointer; 
+	font-size: 14px; 
+	font-weight: bold; 
+	padding: 10px; 
+	width: 500px; 
+}
+
+div.a_content {
+	background: #adadaf; 
+	color: #000; 
+	border: 1ps dashed #000; 
+	font-size: 12px; 
+	padding: 10px; 
+	width: 500px; 
+}
+
+a.novaja {
+	font-size: 12px; 
+	font-family: tahoma; 
+	text-decoration: underline; 
+	color: #000; 
+}
+
+.knop {
+	position: absolute; 
+	top: 50%; 
+	right: 0; 
+	margin: -120px 0 0;
+}
+
+.knop1 { 
+	padding: 0 0 4px; 
+	background: url(../img/vopros1.png) top left no-repeat;
+}
+	
+.knop2 { 
+	background: url(../img/zayavka1.png) top left no-repeat;
+}
+	
+.knop1 a, .knop2 a {
+	display: block; 
+	width: 39px; 
+	height: 122px; 
+	outline: none;
+}
+	
+.plus {
+	background: #c7d0cc; 
+	padding: 5px 20px; 
+}
+
+.plus > P {font-weight: bold; }
+
+.usluga {
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+	padding: 5px; 
+	margin: 5px; 
+	width: 30%; 
+	text-align: center; 
+	float: left; 
+}
+
+.usluga a: hover {
+	text-decoration: none; 
+	color: #c00; 
+}
+
+.uslugasanacija {
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+	padding: 5px; 
+	margin: 5px; 
+	width: 30%; 
+	text-align: center; 
+	display: inline-block; 
+	*display: inline; 
+	*zoom: 1; 
+} 
+
+.kartinki {
+	float: left; 
+	text-align: center; 
+}
+
+.kont {
+	font-size: 18px; 
+	font-weight: bold; 
+}
+
+a.novajatext {
+	font-family: tahoma; 
+	text-decoration: underline; 
+	color: #000; 
+	font-size: 18px; 
+	font-weight: bold; 
+}
+
+.dlaiformi {
+	font-weight: bold; 
+	text-align: center; 
+	font-size: 18px; 
+}
+
+.cena {
+	width: 40%; 
+	text-align: center; 
+	margin: 5px auto; 
+	padding: 5px; 
+	border: 1px solid #000; 
+	background: #d6d8d7; 
+}
+
+.cena tr td {
+	padding: 10px; 
+	border: 1px solid #000; 
+	background: #ededef; 
+}
+
+.cena tr td: hover {
+	background: #c0c0c0; 
+}
+
+.uslugasanacija1 {
+	box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+	padding: 5px; 
+	margin: 20px auto; 
+	width: 70%; 
+	text-align: center; 
+	font-weight: bold; 
+}
+
+.tel_top { position:absolute; top:15px; right:30px; color:#000; width: 462px; text-align: right;}
+.tel_top p { margin:0;}
+.tel_top a { color:#000; text-decoration: none;}
+.tel_top a:hover { color:#000; text-decoration: none;}
+
+.form_top { position: absolute; top:30px; right:30px; margin:5px 200px 0 0; font-weight:bold;}
+.form_top a {text-decoration: none;}
+.form_top a:hover{ text-decoration: underline;}
+
+.stil2 {box-shadow: 0 1px 15px rgba(0, 0, 0, 0.4), 0 0 40px rgba(0, 0, 0, 0.1) inset; 
+	padding: 5px; 
+	margin: 20px auto; 
+	width: 15%; 
+	text-align: center; 
+	font-weight: bold; 
+}
+.printonly {display: none}
+
+.header_tb td {
+    font-size: 0;
+}
